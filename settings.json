@@ -1,0 +1,42 @@
+{
+  // "editor.fontFamily": "JetBrains Mono",
+  // "editor.fontFamily": "Hack",
+  "editor.fontFamily": "Fira Code",
+  "editor.fontWeight": "400",
+  "editor.letterSpacing": 0.3,
+  "editor.fontSize": 11,
+  "editor.lineHeight": 2,
+  "editor.tabSize": 2,
+  "editor.renderLineHighlight": "gutter",
+  "editor.fontLigatures": true,
+  "editor.mouseWheelZoom": true,
+  "gitlens.hovers.currentLine.over": "line",
+
+  "terminal.integrated.fontFamily": "JetBrains Mono",
+  "terminal.integrated.fontSize": 10,
+  "terminal.integrated.letterSpacing": 0.9,
+  "terminal.integrated.fontWeight": 500,
+  "terminal.integrated.shellArgs.windows": [
+      "-NoLogo"
+  ],
+
+  "editor.codeActionsOnSave": {
+      "source.fixAll": true
+  },
+
+  "[prisma]" : {
+      "editor.formatOnSave": true
+  },
+  //Vscode 
+  "explorer.compactFolders": false,
+  "explorer.confirmDragAndDrop": false,
+  "explorer.confirmDelete": false,
+  "workbench.iconTheme": "material-icon-theme",
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "workbench.startupEditor": "none",
+  "[javascript]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "window.zoomLevel": 3,
+  "workbench.colorTheme": "Dracula Pro",
+}
