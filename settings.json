@@ -1,42 +1,50 @@
 {
-  // "editor.fontFamily": "JetBrains Mono",
-  // "editor.fontFamily": "Hack",
-  "editor.fontFamily": "Fira Code",
-  "editor.fontWeight": "400",
-  "editor.letterSpacing": 0.3,
-  "editor.fontSize": 11,
-  "editor.lineHeight": 2,
-  "editor.tabSize": 2,
-  "editor.renderLineHighlight": "gutter",
-  "editor.fontLigatures": true,
-  "editor.mouseWheelZoom": true,
-  "gitlens.hovers.currentLine.over": "line",
+    "editor.fontFamily": "JetBrains Mono",
+    "editor.wordWrap": "on",
+    "editor.fontSize": 11,
+    "editor.fontWeight": "500",
+    "editor.lineHeight": 20,
+    "terminal.integrated.fontSize": 12,
+    "editor.tabSize": 2,
+    "editor.fontLigatures": true,
+    "editor.renderLineHighlight": "gutter",
+    "editor.parameterHints.enabled": false,
+    "editor.semanticHighlighting.enabled": true,
+    "editor.bracketPairColorization.enabled": true,
+    
+    "editor.codeActionsOnSave": {
+        "source.fixAll": true
+    },
 
-  "terminal.integrated.fontFamily": "JetBrains Mono",
-  "terminal.integrated.fontSize": 10,
-  "terminal.integrated.letterSpacing": 0.9,
-  "terminal.integrated.fontWeight": 500,
-  "terminal.integrated.shellArgs.windows": [
-      "-NoLogo"
-  ],
-
-  "editor.codeActionsOnSave": {
-      "source.fixAll": true
-  },
-
-  "[prisma]" : {
-      "editor.formatOnSave": true
-  },
-  //Vscode 
-  "explorer.compactFolders": false,
-  "explorer.confirmDragAndDrop": false,
-  "explorer.confirmDelete": false,
-  "workbench.iconTheme": "material-icon-theme",
-  "javascript.updateImportsOnFileMove.enabled": "always",
-  "workbench.startupEditor": "none",
-  "[javascript]": {
-      "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
-  "window.zoomLevel": 3,
-  "workbench.colorTheme": "Dracula Pro",
+    "editor.mouseWheelZoom": true,
+    "gitlens.hovers.currentLine.over": "line",
+    "terminal.integrated.fontWeight": 500,
+    "[prisma]": {
+        "editor.formatOnSave": true
+    },
+    //Vscode 
+    "explorer.compactFolders": false,
+    "explorer.confirmDragAndDrop": false,
+    "explorer.confirmDelete": false,
+    "javascript.updateImportsOnFileMove.enabled": "always",
+    "workbench.startupEditor": "none",
+    "helium-icon-theme.folders.color": "#26a69a",
+    "editor.inlineSuggest.enabled": true,
+    "workbench.iconTheme": "material-icon-theme",
+    "typescript.updateImportsOnFileMove.enabled": "always",
+    "workbench.tree.indent": 14,
+    "window.zoomLevel": 1,
+    "git.autofetch": true,
+    "github.copilot.enable": {
+        "*": true,
+        "plaintext": false,
+        "markdown": false,
+        "scminput": false
+    },
+    "emmet.syntaxProfiles": {
+        "javascript": "jsx"
+    },
+    "emmet.includeLanguages": {
+        "javascript": "javascriptreact"
+    }
 }
